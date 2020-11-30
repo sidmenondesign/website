@@ -1,0 +1,139 @@
+body{
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      background:url('../img/headshot10bw.jpg');
+      background-size: cover;
+      background-position: center;
+      font-family: sans-serif;
+}
+
+/* Header **/
+header{
+  background:#0d0f1b;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#2196f3 3px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:18px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#2196f3;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+header{
+  padding-bottom:20px;
+}
+
+footer{
+  padding:20px;
+  position: absolute;
+  bottom: 0;
+  color:#ffffff;
+  background-color:#0d0f1b;
+  text-align: center;
+  width: 100%
+}
+
+.contact-title
+{
+      margin-top: 600px;
+      color: #2196f3;
+      text-transform: uppercase;
+}
+
+.contact-title2
+{
+      margin-top: 20px;
+      color: #2196f3;
+      text-transform: lowercase;
+}
+.contact-title h1{
+      font-size: 32px;
+      line-height: 10px;
+}
+.contact-title h2{
+      font-size: 16px;
+}
+
+.contact-title2 h3{
+      font-size: 25px;
+      line-height: 10px;
+}
+
+.contact-title2 h4{
+      font-size: 32px;
+      line-height: 10px;
+}
+
+form
+{
+  margin-top: 50px;
+  transition: all 1s ease-in-out;
+}
+
+.form-control
+{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18;
+}
+
+input
+{
+  height: 45px;
+}
+
+form .submit
+{
+  background: #2196f3;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+form .submit:hover
+{
+  background-color: #ff3f81;
+  cursor: pointer;
+}
